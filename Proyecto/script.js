@@ -104,7 +104,7 @@ class Juego {
                 this.nivel++
                 this.eliminarEventosClic()
                 if (this.nivel === (ULTIMO_NIVEL + 1)) {
-                    // GANÓ
+                    // GANÓa
                 }else{
                     setTimeout( this.siguienteNivel(),2000)
                 }
